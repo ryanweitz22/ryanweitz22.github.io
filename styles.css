@@ -1,0 +1,203 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color:gainsboro ;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  /* Add more styles as needed */
+
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+   ;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox to create a horizontal layout */
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration:solid;
+    color:crimson;
+    font-weight: bold;
+}
+/* Style the form container */
+form {
+  width: 400px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 2px solid black; /* Border style and color */
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ } /* Add a subtle shadow */
+
+ label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Style the form input fields and textarea */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+h3{
+  font-weight: bold;
+  font-family: cursive;
+  color: crimson;
+}
+h5{
+  font-family: cursive;
+  color: crimson;
+  font-weight: bold;
+  font-size: larger;
+  
+}
+
+
+#home {
+  border: 2px solid crimson;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+
+}
+
+header {
+  background-image: url('navbarpic.png');
+  background-size: cover; /* or contain, depending on your preference */
+  background-repeat: no-repeat;
+  background-position: center; /* Set the background position to center */
+  height: 100px; 
+  /* Additional styling for your header can be added here */
+}
+footer{
+  background-image: url('navbarpic.png');
+  background-size: cover; /* or contain, depending on your preference */
+  background-repeat: no-repeat;
+  background-position: center; /* Set the background position to center */
+  height: 200px; 
+
+}
+
+#pic {
+  text-align: center; /* Center-align the content within the section */
+}
+
+#pic h5 {
+  margin-top: 10px; /* Adjust the margin to control the space between the text and the image */
+}
+
+#pic img {
+  display: block; /* Make the image a block element to center it within the section */
+  margin: 0 auto; /* Center the image horizontally */
+}
+#socialmedia{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+  text-align: center;
+  color: crimson;
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: lightgray;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#logo img {
+  width: 50px; 
+  height: auto; 
+  margin-right: 10px; 
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: crimson;
+  font-weight: bold;
+}
+/* * {
+  background-image: url('wp10090422-grey-laptop-wallpapers.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+} */
